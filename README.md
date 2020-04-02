@@ -9,7 +9,7 @@ Bet Performer:
 
 Bet Performer is a bulk carrier with 172000 DWT and 12479 Capesize index. The ship is 11 years old and was built in Japan in 1997. This ship has a MAN-B&W engine with an engine power of 14710 KW and has nine holds and hatches. The same ship was sold two years back under a different name Mineral Poterne for $70 million.
 
-Variables
+Variables:
 
 Data consists of recent Sale Date, Vessel Name, Price, Sale Year, Year Built, DWT and Capesize. The weight of these ships is measured in deadweight tons and is the sum of cargo, fuel, fresh water, passengers and crew weights. DWT for Capesize is greater than 100000. The baltic dry index calculates multiple shipping costs for different raw materials among various routes.Year built and Age at Sale represents the same factor. Age at Sale is the best predictor of the price when compared to other variables owing to the highest correlation. DWT and Capesize also has a significant correlation with the price of the ship and can affect the price. Sale Date has the least correlation and lowest influence on the price. In addition to the data collected about similar ships factors such as main engine type, repairs, building company reputation, charter contracts with counter-parties, loading equipment, shipyard and location of the ship at the time sale also influence the price of the ship.
 
@@ -46,7 +46,7 @@ We went ahead and used this model to predict the price of the Bet Performer. The
 
 The confidence interval for the prediction is between 118.8899 and 132.7692
 
-Further Analysis
+Further Analysis:
 
 Analyzing the whole dataset, there are certain observations to be noticed. We plotted the histogram for the original price for all the 48 ships which were studied.
 
@@ -56,6 +56,6 @@ The dataset was segregated into two buckets, one has a price less than $100 M an
 
 The above inference was considered to adjust the underpriced prediction. The final price predicted for Bet Performer as per our case study will be $ 132.19 M.
 
-Conclusion
+Conclusion:
 
 The purpose of analysis was to come up with the predicted price of Bet Performer which would fall under both the client and the seller's satisfaction. We did a detailed study using the Market Approach as the base and came to a final price of $ 132.19M for the Bet Performer which we think will be the amount to bid and successfully buy the bulk carrier ship which the client had interest in.
